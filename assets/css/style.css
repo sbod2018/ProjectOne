@@ -1,0 +1,157 @@
+
+body{
+   
+  background-image: url("../images/mooncat.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  background-color: #030108;
+  font-family: Arial;
+}
+
+
+h2{
+
+  font-weight: bold;
+  font-family: 'Ubuntu' sans-serif;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+h2{
+
+  font-weight: bold;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 44px;
+}
+
+#youtubeRow{
+
+  height:420px;
+  margin:0px;
+}
+
+h3{
+
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 36px;
+  background-color: #7b1fa2;
+  padding: 10px;
+  margin-right: 125px;
+  margin-left: 125px;
+  border-radius: 30px;
+
+}
+
+#youtubeBox{
+  height: 310px;
+  width: 560px;
+  padding: 5px;
+}
+
+#inputDiv{
+
+  width: 400px;
+
+}
+
+  #artistName{
+    color: rgb(0, 0, 0);
+    background-color: #7b1fa2;
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+
+  .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+  #searchButton{
+
+    border-radius: 5px;
+
+  }
+
+  th{
+
+      font-family: 'Arvo', serif;
+      font-weight: bold;
+
+  }
+
+       
+  .page-footer.container.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    text-align: center;
+    background-color: none ;
+
+  }
+
+
+
+ 
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 10%;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+form.example button {
+    float: left;
+    width: 10%;
+    padding: 5px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card-title{
+    color: #330033;
+    
+}
+
+.card-action{
+  border-radius: 5px;
+}
